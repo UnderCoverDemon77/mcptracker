@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  background-color: black;
+  color: Red;
+  height: 120px;
+  position:fixed;
+  top: 0;
+  left:0;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+#evileyes{
+  width: auto;
+  height: 30px;
+  padding-top: 25px;
+
+}
+#mcp-title{
+  padding-top: 5px;
+  height: 110px;
+  width: auto;
+}
+#ucd{
+  padding-left: 10px;
+  font-size:xx-large;
+  align-self: center;
+  text-shadow: 7px 7px 5px grey;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnderCoverDemon MCP Blog</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <style>
+    body{
+      margin-top: 135px;
+      background-color: black;
+    }
+    footer{
+      display:flex ;
+      justify-content:space-between;
+      width: 100%;
+    }
+
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+    ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    }   
+    li{
+      list-style: none;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: larger;
+      font-weight: 700;
+      height: 60px;
+      transition: 0.7s;
+    }
+    #games{
+      margin: 10px 15px;
+      width: 100%;
+      display:flex;
+      gap: 0;
+
+
+    }
+    #games>a{
+      background-color: beige;
+      height: 60px;
+      border: 2px solid black;
+      flex: 1;
+    }
+    .foot{
+      text-align: center;
+      color: white;
+      margin: 5px;
+      font-size: large;
+      font-weight: 600;
+    }
+
+  </style>
+
+</head>
+<body>
+  <header>
+    <img id="evileyes" src="images/evileyes.jpg" alt="Evil Eyes">
+    <h1 id="ucd">UnderCoverDemon MCP Battle Log</h1>
+    <a href="http://WWW.Atomicmassgames.com" target="_blank"><img id="mcp-title" src="images/MCP.jpg" alt="Marvel Crisis Protocol Title"></a>
+  </header> 
+  <nav>
+      <ul>
+        <li style="background-color:white;">Factions</li>
+        <li id="aforce" a href="#">A-Force</li>
+        <li id="asgard" a href="#" >Asgard</li>
+        <li id="avengers" a href="#" >Avengers</li>
+        <li id="blackorder" a href="#">Black Order</li>            <li id="brotherhood" a href="#">Brotherhood of Mutants</li>
+        <li id="convocation" a href="#">Convocation</li>
+        <li id="crimsyn" a href="#">Criminal Syndicate</li>
+        <li id="darkdimension" a href="#">Dark Dimension</li>
+        <a href="factions/defenders.html"><li id="defenders"> Defenders</li></a>
+        <li id="guardians" a href="#">Guardians of the Galaxy</li>
+        <a href="factions/hydra.html"><li id="hydra"> Hydra</li></a>
+        <li id="inhumans" a href="#">Inhumans</li>
+        <li id="midnightsons" a href="#">Midnight Sons</li>
+        <a href="factions/sentinels.html"><li id="sentinels">Sentinels</li></a>
+        <a href="factions/shield.html"><li id="shield">S.H.I.E.L.D </li></a>
+        <li id="spiderfoes" a href="#">Spiderfoes</li>
+        <li id="xmen" a href="#">Uncanny X-Men</li>
+        <li id="wakanda" a href="#">Wakanda</li>
+        <a href="factions/Winterguard.html"><li id="winterguard"> Winter Guard </li></a>
+        <li id="xforce" a href="#">X-force</li>
+        
+      </ul>
+  </nav>
+  <hr>
+  <footer>
+    <ul id="games">
+      <a href="games/events.html"><li id="events">Events</li></a>>
+      <a href="games/friendly.html"><li id="friendly">Friendly</li></a>>
+      <a href="games/tts.html"><li id="tts"> Table Top Simulator</li></a>
+    </ul>
+  </footer>
+  <hr>
+  <p class="foot">About Me</p>
+  <p class="foot">Links</p>
+  <p class="foot">Contact</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+h1{
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-weight:inherit;
+  height: 70px;
+  width: 100%;
+  padding-top: 30px;
+  box-shadow: 5px 5px 5px 2px black;
+  border-radius: 3px;
+  background-image:linear-gradient(to right,purple,blue,purple);
+  color:black;
+}
+.sentinelgame{
+  color:white; 
+  text-shadow: 2px 2px 2px black;
+  font-family:inherit;
+  font-weight:inherit;
+  border: 3px outset white;
+  background-image:linear-gradient(45deg,purple,blue,purple);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#sentinelcharacters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.characters{
+  display:inline-block;
+  margin: 5px;
+  background-image:linear-gradient(45deg,purple,blue,purple);
+  color:white; 
+  text-shadow: 2px 2px 2px black;
+  flex: 1;
+}
+.characterslong{
+  display:inline-block;
+  margin: 5px;
+  background-image:linear-gradient(45deg,purple,blue,purple);
+  color:white; 
+  text-shadow: 2px 2px 2px black;
+  flex: 2;
+} 

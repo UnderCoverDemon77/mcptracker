@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WinterGuard</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/factionStyles/general.css">
+  <link rel="stylesheet" href="../styles/factionStyles/winterguard.css">
+</head>
+<body>
+  <h1>
+    Winter Guard
+  </h1>
+
+  <button><a href="../index.html">Home</a></button>
+
+  <div id="wintercharacters">
+    <button class="characters"><a href="#">Crimson Dynamo</a></button>
+    <button class="characters"><a href="#">Red Guardian</a></button>
+    <button class="characters"><a href="#">Ursa Major</a></button>
+    <button class="characters"><a href="#">Dark Star</a></button>
+  </div>
+  <div id="winLossBar">
+    <h2>Win = <span id="win"></span></h2>
+    <h2>Loss = <span id="loss"></span></h2>
+    <h2>Win/Loss Ratio = <span id="winLoss"></span></h2>
+  </div>
+  <main>
+    <div class="wintergame">
+      <p>14 Oct 2022 <br>
+        Game against Ged at Element October Friday Night Event<br>
+       <ul>My Squad
+         <li>Crimson Dynamo</li>
+         <li>Ursa Major</li>
+         <li>Hulk</li>
+         <li>Red Guardian</li>
+       </ul>
+       <ul>Geds Squad
+         <li>Malekith</li>
+         <li>She Hulk</li>
+         <li>Ultron</li>
+       </ul>
+       Win for Me on Deadly Meteors and Montessi
+      </p>
+    </div>
+    <div class="wintergame">
+      <p>14 Oct 2022 <br>
+        Game against Colm at Element October Friday Night Event<br>
+       <ul>My Squad
+         <li>Crimson Dynamo</li>
+         <li>Ursa Major</li>
+         <li>Winter Soldier</li>
+         <li>Red Guardian</li>
+       </ul>
+       <ul>Colms Squad
+         <li>Storm</li>
+         <li>Juggernaut</li>
+         <li>X-23</li>
+         <li>Beast</li>
+       </ul>
+       Win for Me on Deadly Mutant Madman and Senetors
+      </p>
+    </div>
+    <div class="wintergame">
+      <p>14 Oct 2022 <br>
+        Game against Swiss at Element October Friday Night Event<br>
+       <ul>My Squad
+         <li>Crimson Dynamo</li>
+         <li>Ursa Major</li>
+         <li>Iron Fist</li>
+         <li>Red Guardian</li>
+       </ul>
+       <ul>Swiss' Squad
+         <li>Captain America Steve Rogers</li>
+         <li>Dead Pool</li>
+         <li>Rogue</li>
+         <li>Ms. Marvel</li>
+       </ul>
+       Win for Me on SWORD Base and Alien Ship
+      </p>
+    </div>
+    <div class="wintergame"></div>
+  </main>
+  <button><a href="../index.html">Home</a></button>
+
+  <script>
+    let win = 3
+    let loss = 0
+    let winLoss = winLossRatio(win, loss)
+    function winLossRatio(win, loss){
+      return ((win/(win+loss))*100).toPrecision(3)+"%"
+    }
+
+    document.getElementById("win").innerHTML = win
+    document.getElementById("loss").innerHTML = loss
+    document.getElementById("winLoss").innerHTML = winLoss
+  </script>
+
+  
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: inherit;
+}
+
+button{
+  display: block;
+  margin:20px;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: beige;
+  font-weight: inherit;
+  border-radius: 5px;
+}
+
+h1{
+  background-color: beige;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-weight:inherit;
+  height: 70px;
+  width: 100%;
+  padding-top: 30px;
+  box-shadow: 5px 5px 5px 2px white;
+  border-radius: 3px;
+
+}
+table{
+  border: 3px Solid white;
+  border-collapse: collapse;
+  width: 90%; 
+  margin: 3%;
+  overflow:scroll;
+}
+th{
+  background-color: rgb(90, 151, 172);
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  border: 2px double white;
+  padding: 3px;
+}
+td{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  border: 2px solid white;
+  padding: 3px;
+}
+tr:nth-child(even){
+  background-color: rgb(238, 143, 127);
+}
+tr:nth-child(odd){
+  background-color: rgb(241, 83, 55);
+}
+tr:last-child{
+  background-color: lightblue;
+}

@@ -1,0 +1,61 @@
+
+#aforce{
+  background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(0, 225, 255),rgb(255, 255, 255));color: rgb(46, 46, 46);
+}
+#asgard{
+  background-image: linear-gradient(to right,yellow,rgb(255, 136, 0),yellow) ;color:black;
+}
+#avengers{
+  background-image: linear-gradient(to right,rgb(133, 133, 255),blue,rgb(133, 133, 255));color:white;
+}
+#blackorder{
+  background-image:linear-gradient(to right,rgb(63, 0, 0),black,rgb(63, 0, 0));color:purple;
+}
+#brotherhood{
+  background-image: linear-gradient(to right,rgb(58, 58, 58),purple,rgb(58, 58, 58));color:white;
+}
+#convocation{
+  background-image: linear-gradient(to right,pink,rgb(0, 153, 255),pink);color: black;
+}
+#crimsyn{
+  background-image: linear-gradient(to right,darkgreen,gold,darkgreen);color: black;
+}
+#darkdimension{
+  background-image: linear-gradient(to right,black,red,black);color:white;
+}
+#defenders{
+  background-image: linear-gradient(to right,gold,green,gold);color: black;
+}
+#guardians{
+  background-image: linear-gradient(to right,pink,purple,pink);color: black;
+}
+#hydra{
+  background-image: linear-gradient(to right,red,green,red);color:white;
+}
+#inhumans{
+  background-image: linear-gradient(to right,black,grey,black);color:white;
+}
+#midnightsons{
+  background-image: linear-gradient(to right,rgb(48, 48, 48),black,rgb(48, 48, 48));color:red;
+}
+#sentinels{
+  background-image: linear-gradient(to right,purple,blue,purple);color: black;
+}
+#shield{
+  background-image: linear-gradient(to right,grey,black,grey);color:white;
+}
+#spiderfoes{
+  background-image: linear-gradient(to right,green,purple,green);color:white;
+}
+#xmen{
+  background-image: linear-gradient(to right,blue,yellow,blue);color: black;
+}
+#wakanda{
+  background-image: linear-gradient(to right,black,green,black);color:white;
+}
+#winterguard{
+  background-image: linear-gradient(to right,white,red,white); color: black;
+}
+#xforce{
+  background-image:linear-gradient(to right,black,yellow,black) ;color: black;
+}

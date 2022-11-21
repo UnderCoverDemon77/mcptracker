@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydra</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/factionStyles/hydra.css">
+  <link rel="stylesheet" href="../styles/lightbox.css">
+  <link rel="stylesheet" href="../styles/factionStyles/general.css">
+ <style>
+  </style>
+</head>
+<body>
+  <h1>
+    Hydra
+  </h1>
+  <button><a href="../index.html">Home</a></button>
+  <div id="hydracharacters">
+    <a href="#redskull2" class="characterslong">Red Skull Master of Hydra</a>
+    <a href="#strucker" class="characters">Baron Strucker</a>
+    <a href="#zemo" class="characters">Baron Zemo</a>
+    <a href="#redskull" class="characters">Red Skull</a>
+    <a href="#zola" class="characters">Armin Zola</a>
+    <a href="#sin" class="characters">Sin</a>
+    <a href="#crossbones" class="characters">Crossbones</a>
+    <a href="#taskmaster" class="characters">Taskmaster</a>
+    <a href="#bob" class="characters">Bob</a>
+    <a href="#viper" class="characters">Viper</a>
+  </div>
+
+  <div class="lightbox" id="redskull2">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/redSkull2crop.jpg" alt="Red Skull Master of Hydra">
+    </div>
+  </div>
+  <div class="lightbox" id="strucker">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/struckercrop.jpg" alt="Baron Strucker">
+    </div>
+  </div>
+  <div class="lightbox" id="zemo">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/zemo.jpg" alt="Baron Zemo">
+    </div>
+  </div>
+  <div class="lightbox" id="redskull">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/redskull.jpg" alt="Red Skull">
+    </div>
+  </div>
+  <div class="lightbox" id="zola">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/zola.jpg" alt="Armin Zola">
+    </div>
+  </div>
+  <div id="winLossBar">
+    <h2>Win = <span id="win"></span></h2>
+    <h2>Loss = <span id="loss"></span></h2>
+    <h2>Win/Loss Ratio = <span id="winLoss"></span></h2>
+  </div>
+  <div class="lightbox" id="crossbones">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/crossbones.jpg" alt="Crossbones">
+    </div>
+  </div>
+  <div class="lightbox" id="sin">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/sin.jpg" alt="Sin">
+    </div>
+  </div>
+  <div class="lightbox" id="taskmaster">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/taskmaster.jpg" alt="Taskmaster">
+    </div>
+  </div>
+  <div class="lightbox" id="bob">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/bob.jpg" alt="bob">
+    </div>
+  </div>
+  <div class="lightbox" id="viper">
+    <a href="#" class="close">Close</a>
+    <div class="lightbox-content">
+      <img src="../images/factionPhotos/viper.jpg" alt="Viper">
+    </div>
+  </div>
+
+  <main>
+    <div class="hydragame">
+      <p>18 Nov 2022 <br>
+       Game against James at Element Games<br>
+      <ul>My Squad
+        <li>Omega Red</li>
+        <li>Armin Zola</li>
+        <li>Baron Zemo</li>
+        <li>Bob</li>
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+      </ul>
+      <ul>James Squad
+        <li>Captain America Steve Rogers</li>
+        <li>Hulk</li>
+        <li>Vision</li>
+        <li>LockJaw</li>
+        <li>Ms Marvel</li>
+      </ul>
+      Win to Me on Montessi and Terrigen Mists
+     </p>
+     </div>
+    <div class="hydragame">
+      <p>18 Nov 2022 <br>
+       Game against Nick at Element Games<br>
+      <ul>My Squad
+        <li>Scarlet Witch</li>
+        <li>Armin Zola</li>
+        <li>Baron Zemo</li>
+        <li>Bob</li>
+        <li>Baron Strucker</li>
+      </ul>
+      <ul>Nicks Squad
+        <li>Spiderman Miles Morales</li>
+        <li>Ghost Spider</li>
+        <li>Venom</li>
+        <li>Black Panther</li>
+        <li>Black Cat</li>
+      </ul>
+      Win to Me on Cubes and Mayor Fisk
+     </p>
+     </div>
+    <div class="hydragame">
+      <p>11 Nov 2022 <br>
+       Game against Adam at Element Friday Night Event<br>
+      <ul>My Squad
+        <li>Red Skull Master of Hydra</li>
+        <li>Armin Zola</li>
+        <li>Baron Zemo</li>
+        <li>Baron Mordo</li>
+        <li>Baron Strucker</li>
+      </ul>
+      <ul>Adams Squad
+        <li>Starlord</li>
+        <li>Rocket</li>
+        <li>Gamora</li>
+        <li>Groot</li>
+        <li>Nebula</li>
+        <li>Rogue</li>
+      </ul>
+      Win to Me on Cubes and Spider Portals
+     </p>
+     </div>
+     <div class="hydragame">
+      <p>11 Nov 2022 <br>
+       Game against Dan at Element Friday Night Event<br>
+      <ul>My Squad
+        <li>Scarlet Witch</li>
+        <li>Armin Zola</li>
+        <li>Baron Zemo</li>
+        <li>Baron Mordo</li>
+        <li>Baron Strucker</li>
+      </ul>
+      <ul>Dans Squad
+        <li>Black Panther</li>
+        <li>Killmonger</li>
+        <li>Shuri</li>
+        <li>Okoye</li>
+        <li>Venom</li>
+      </ul>
+      Win to Me on Cubes and Infinity Formula
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>11 Nov 2022 <br>
+       Game against Rob at Element Friday Night Event<br>
+      <ul>My Squad
+        <li>Scarlet Witch</li>
+        <li>Bob</li>
+        <li>Baron Zemo</li>
+        <li>Baron Mordo</li>
+        <li>Baron Strucker</li>
+      </ul>
+      <ul>Adams Squad
+        <li>Captain America Steve Rogers</li>
+        <li>Vision</li>
+        <li>Winter Soldier</li>
+        <li>Ghost Rider</li>
+      </ul>
+      Win to Me on Montessi and Mayor Fisk
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>10 Nov 2022 <br>
+       Game against Toby on TTs<br>
+      <ul>My Squad
+        <li>Red Skull Master of Hydra</li>
+        <li>Omega Red</li>
+        <li>Baron Zemo</li>
+        <li>Bob</li>
+        <li>Baron Strucker</li>
+      </ul>
+      <ul> Squad
+        <li>Amazing Spiderman</li>
+        <li>Hulk</li>
+        <li>Moonknight</li>
+        <li>Ghost Spider</li>
+      </ul>
+      Win to Me on Montessi and Mayor Fisk
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>09 Nov 2022 <br>
+       Game against Ged no TTS<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Armin Zola</li>
+        <li>Baron Zemo</li>
+        <li>Crimson Dynamo</li>
+        <li>Bob</li>
+      </ul>
+      <ul>Geds Squad
+        <li>Dr Strange</li>
+        <li>Hulk</li>
+        <li>Vision</li>
+      </ul>
+      Win to Me on Gamma and Hammers
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>04 Nov 2022 <br>
+       Game against Dave at Element Games<br>
+      <ul>My Squad
+        <li>Red Skull Master of Hydra</li>
+        <li>Crimson Dynamo</li>
+        <li>Baron Zemo</li>
+        <li>Viper</li>
+
+      </ul>
+      <ul>Daves Squad
+        <li>Mystigue</li>
+        <li>Juggernaut</li>
+        <li>Toad</li>
+        <li>Scarlet Witch</li>
+      </ul>
+      Win to Me on Gamma and Hammers
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>04 Nov 2022 <br>
+       Game against Dave at Element Games<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Crimson Dynamo</li>
+        <li>Scarlet Witch</li>
+        <li>Bob Agent of Hydra</li>
+      </ul>
+      <ul>Daves Squad
+        <li>Magneto</li>
+        <li>Juggernaut</li>
+        <li>Mystique</li>
+        <li>Scarlet Witch</li>
+      </ul>
+      Win to Me on Viruses and Demons
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>03 Nov 2022 <br>
+       Game against Ged on TTS<br>
+      <ul>My Squad
+        <li>Red Skull Master of Hydra</li>
+        <li>Sentinel MK4</li>
+        <li>Sentinel MK4</li>
+        <li>Bob, Agent of Hydra</li>
+        <li>Baron Zemo</li>
+      </ul>
+      <ul>Geds Squad
+        <li>Dormammuu</li>
+        <li>X23</li>
+        <li>Domino</li>
+        <li>Honey Badger</li>
+        <li>Nebula</li>
+      </ul>
+      Win to Ged on Hammers and Intrusions
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>03 Nov 2022 <br>
+       Game against Ged on TTS<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Sentinel MK4</li>
+        <li>Sentinel MK4</li>
+        <li>Armin Zola</li>
+      </ul>
+      <ul>Geds Squad
+        <li>Dormammuu</li>
+        <li>X23</li>
+        <li>Mysterio</li>
+        <li>Honey Badger</li>
+        <li>Baron Zemo</li>
+      </ul>
+      Win to Ged on Researcher and Demons
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>21 Oct 2022 <br>
+       Game against Ged at Element Games<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Baron Zemo</li>
+        <li>Armin Zola</li>
+        <li>Dynamo</li>
+      </ul>
+      <ul>Geds Squad
+        <li>Iron Man</li>
+        <li>Captain Sam</li>
+        <li>Warmachine</li>
+        <li>Ant Man</li>
+        <li>Black Widow Agent of Shield</li>
+        <li>Hawk Eye</li>
+      </ul>
+      Win to Ged on Hammers and Gamma
+     </p>
+    </div>
+     <div class="hydragame">
+      <p>21 Oct 2022 <br>
+       Game against Ged at Element Games<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Bob</li>
+        <li>Scarlet Witch</li>
+        <li>Armin Zola</li>
+      </ul>
+      <ul>Geds Squad
+        <li>Captain Sam</li>
+        <li>Warmachine</li>
+        <li>HulkBuster</li>
+        <li>Black Widow Agent of Shield</li>
+        <li>Hawk Eye</li>
+      </ul>
+      Win to Ged on Demon and Hammers
+     </p>
+     </div>
+     <div class="hydragame">
+      <p>21 Oct 2022 <br>
+       Game against Dave at Element Games<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Scarlet Witch</li>
+        <li>Taskmaster</li>
+      </ul>
+      <ul>Daves Squad
+        <li>Black Cat</li>
+        <li>Captain Steve</li>
+        <li>Luke Cage</li>
+        <li>Iron Man</li>
+        <li>Hawk Eye</li>
+      </ul>
+      Win to Me on Researcher and Sword
+     </p>
+     </div>
+     <div class="hydragame">
+      <p>21 Oct 2022 <br>
+       Game against Pembo at Element Games<br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Baron Zemo</li>
+        <li>Scarlet Witch</li>
+        <li>Taskmaster</li>
+        <li>Armin Zola</li>
+
+      </ul>
+      <ul>Pembos Squad
+        <li>Captain Sam</li>
+        <li>Captain Steve</li>
+        <li>Black Panther</li>
+        <li>Iron Man</li>
+        <li>Hawk Eye</li>
+      </ul>
+      Win to Me on Cubes and Extremis
+     </p>
+     </div>
+    <div class="hydragame">
+      <p>20 Oct 2022 <br>
+       Game against Toby Jennings on TTS  <br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Baron Zemo</li>
+        <li>Armin Zola</li>
+        <li>Taskmaster</li>
+      </ul>
+      <ul>Tobys Squad
+        <li>Spiderman Miles Morales</li>
+        <li>Amazing Spiderman</li>
+        <li>Black Cat</li>
+        <li>Ghost Spider</li>
+        <li>Ms Marvel</li>
+      </ul>
+      Win to me on Spider Infected and Mayor Fisk
+     </p>
+     </div>
+    <div class="hydragame">
+      <p>16 Oct 2022 <br>
+       Game against Toby Jennings on TTS  <br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Baron Zemo</li>
+        <li>Crimson Dynamo</li>
+        <li>Scarlett Witch</li>
+      </ul>
+      <ul>Tobys Squad
+        <li>Spiderman Miles Morales</li>
+        <li>Amazing Spiderman</li>
+        <li>Venom</li>
+        <li>Ghost Spider</li>
+        <li>Ms Marvel</li>
+        <li>Toad</li>
+      </ul>
+      Win to me on Spider Infected and Terrigen Mists
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>16 Oct 2022 <br>
+       Game against Ged on TTS  <br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Baron Zemo</li>
+        <li>She Hulk</li>
+      </ul>
+      <ul>Geds Squad
+        <li>Malekith</li>
+        <li>Baron Zemo</li>
+        <li>Mistique</li>
+        <li>Ultron</li>
+      </ul>
+      Win for Ged on Spider Infected and Mayor Fisk
+     </p>
+    </div>
+    <div class="hydragame">
+      <p>10 Oct 2022 <br>
+       Game against Toby Jennings on TTS  <br>
+      <ul>My Squad
+        <li>Baron Strucker</li>
+        <li>Red Skull Master of Hydra</li>
+        <li>Baron Zemo</li>
+        <li>Bob</li>
+        <li>Scarlett Witch</li>
+      </ul>
+      <ul>Tobys Squad
+        <li>Spiderman Miles Morales</li>
+        <li>Daredevil</li>
+        <li>Moon Knight</li>
+        <li>Iron Fist</li>
+        <li>Black Cat</li>
+        <li>Toad</li>
+      </ul>
+      Win to me on hammers and Extremis
+     </p>
+    </div>
+
+  </main>
+  <button><a href="../index.html">Home</a></button>
+  
+  <script src="../script/hydra.js"> </script>
+
+
+  
+</body>
+</html>

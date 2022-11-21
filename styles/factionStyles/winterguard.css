@@ -1,0 +1,45 @@
+h1{
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-weight:inherit;
+  height: 70px;
+  width: 100%;
+  padding-top: 30px;
+  box-shadow: 5px 5px 5px 2px white;
+  border-radius: 3px;
+  background-image:linear-gradient(to right,white,red,white);
+  color:black;
+}
+.wintergame{
+  color:black; 
+  text-shadow: 2px 2px 2px white;
+  font-family:inherit;
+  font-weight:inherit;
+  border: 3px outset white;
+  background-image:linear-gradient(45deg,red,white,red);
+  padding: 5px;
+  border-radius: 5px;
+}
+#wintercharacters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.characters{
+  display:inline-block;
+  margin: 5px;
+  background-image:linear-gradient(45deg,red,white,red);
+  color:black; 
+  text-shadow: 2px 2px 2px white;
+  flex: 1;
+}
+.characterslong{
+  display:inline-block;
+  margin: 5px;
+  background-image:linear-gradient(45deg,red,white,red);
+  color:black; 
+  text-shadow: 2px 2px 2px white;
+  flex: 2;
+}    
