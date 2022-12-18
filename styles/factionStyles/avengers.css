@@ -1,0 +1,49 @@
+
+h1{
+  text-align: center;
+  font-size: xx-large;
+  font-weight:inherit;
+  height: 70px;
+  width: 100%;
+  padding-top: 30px;
+  box-shadow: 5px 5px 5px 2px black;
+  border-radius: 3px;
+  background-image: linear-gradient(to right,rgb(133, 133, 255),blue,rgb(133, 133, 255));
+  color:white;
+}
+.avengersgame{
+  color:white; 
+  text-shadow: 2px 2px 2px black; 
+  font-family:inherit;
+  font-weight:inherit;
+  border: 3px outset white;
+  background-image: linear-gradient(to right,rgb(133, 133, 255),blue,rgb(133, 133, 255));
+  padding: 5px;
+  border-radius: 5px;
+}
+#avengerscharacters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.characters{
+  background-image: linear-gradient(to right,rgb(133, 133, 255),blue,rgb(133, 133, 255));
+  color:white; 
+  text-shadow: 2px 2px 2px black;
+  flex: 1;
+  margin:10px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.characterslong{
+  background-image: linear-gradient(to right,rgb(133, 133, 255),blue,rgb(133, 133, 255));
+  color:white; 
+  text-shadow: 2px 2px 2px black;
+  flex: 2;
+  margin:10px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}

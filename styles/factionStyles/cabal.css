@@ -5,23 +5,22 @@ h1{
   height: 70px;
   width: 100%;
   padding-top: 30px;
-  box-shadow: 5px 5px 5px 2px black;
+  box-shadow: 5px 5px 5px 2px white;
   border-radius: 3px;
-  background-image:linear-gradient(to right,purple,blue,purple);
-  color:white;
+  background-image: linear-gradient(to right,green,red,green);
+  color: white;
 }
-.sentinelgame{
-  color:white; 
+.cabalgame{ 
   text-shadow: 2px 2px 2px black;
   font-family:inherit;
   font-weight:inherit;
   border: 3px outset white;
-  background-image:linear-gradient(45deg,purple,blue,purple);
+  background-image: linear-gradient(to right,green,red,green);
+  color: white;
   padding: 5px;
   border-radius: 5px;
 }
-
-#sentinelcharacters{
+#cabalcharacters{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -30,16 +29,16 @@ h1{
 .characters{
   display:inline-block;
   margin: 5px;
-  background-image:linear-gradient(45deg,purple,blue,purple);
-  color:white; 
+  background-image: linear-gradient(to right,green,red,green);
+  color: white;
   text-shadow: 2px 2px 2px black;
   flex: 1;
 }
 .characterslong{
   display:inline-block;
   margin: 5px;
-  background-image:linear-gradient(45deg,purple,blue,purple);
-  color:white; 
+  background-image: linear-gradient(to right,green,red,green);
+  color: white;
   text-shadow: 2px 2px 2px black;
   flex: 2;
-} 
+}    

@@ -1,4 +1,4 @@
-let win = 4
+let win = 1
 let loss = 0
 let winLoss = winLossRatio(win, loss)
 function winLossRatio(win, loss){

@@ -8,20 +8,20 @@
       padding-top: 30px;
       box-shadow: 5px 5px 5px 2px white;
       border-radius: 3px;
-      background-image:linear-gradient(to right,green,yellow,green);
-      color:black;
+      background-image: linear-gradient(to right,green,purple,green);
+      color:white;
     }
-    .defendersgame{
-      color:black; 
-      text-shadow: 2px 2px 2px white;
+    .foesgame{ 
+      text-shadow: 2px 2px 2px black;
       font-family:inherit;
       font-weight:inherit;
       border: 3px outset white;
-      background-image:linear-gradient(45deg,green,yellow,green);
+      background-image: linear-gradient(to right,green,purple,green);
+      color:white;
       padding: 5px;
       border-radius: 5px;
     }
-    #defenderscharacters{
+    #foescharacters{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -30,16 +30,16 @@
     .characters{
       display:inline-block;
       margin: 5px;
-      background-image:linear-gradient(45deg,green,yellow,green);
-      color:black; 
-      text-shadow: 2px 2px 2px white;
+      background-image: linear-gradient(to right,green,purple,green);
+      color:white;
+      text-shadow: 2px 2px 2px black;
       flex: 1;
     }
     .characterslong{
       display:inline-block;
       margin: 5px;
-      background-image:linear-gradient(45deg,green,yellow,green);
-      color:black; 
-      text-shadow: 2px 2px 2px white;
+      background-image: linear-gradient(to right,green,purple,green);
+      color:white;
+      text-shadow: 2px 2px 2px black;
       flex: 2;
     }    

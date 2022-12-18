@@ -1,5 +1,5 @@
-let win = 4
-let loss = 0
+let win = 0
+let loss = 2
 let winLoss = winLossRatio(win, loss)
 function winLossRatio(win, loss){
   return ((win/(win+loss))*100).toPrecision(3)+"%"

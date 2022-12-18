@@ -14,6 +14,9 @@
 #brotherhood{
   background-image: linear-gradient(to right,rgb(58, 58, 58),purple,rgb(58, 58, 58));color:white;
 }
+#cabal{
+  background-image: linear-gradient(to right,green,red,green);color: white;
+}
 #convocation{
   background-image: linear-gradient(to right,pink,rgb(0, 153, 255),pink);color: black;
 }
@@ -55,6 +58,12 @@
 }
 #winterguard{
   background-image: linear-gradient(to right,white,red,white); color: black;
+}
+#webwarriors{
+  background-image: linear-gradient(to right,blue,red,blue); color: white;
+}
+#weaponx{
+  background-image: linear-gradient(to right,yellow,brown,yellow); color: white;
 }
 #xforce{
   background-image:linear-gradient(to right,black,yellow,black) ;color: black;
